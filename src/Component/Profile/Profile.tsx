@@ -10,7 +10,7 @@ export default function Profile({}: Props) {
   return (
     <div className="py-5 px-20  ">
       <div className="border-t border border-gray-600"></div>
-      <div className="py-10 w-[60%] flex  justify-center mx-auto min-h-[380px]">
+      <div className="py-10 w-[60%] flex  justify-center mx-auto min-h-[396px]">
         <div className="w-1/2 shadow-lg shadow-indigo-500/40 rounded">
           <h2>Image</h2>
           <h2>Image</h2>
@@ -28,12 +28,12 @@ export default function Profile({}: Props) {
               typewriter
                 .pauseFor(300)
                 .typeString(
-                  '<span  style="color: #fab946;" >Với kinh nghiệm vận hành và kiểm soát chất lượng sản xuất tại các doanh nghiệp.  </span>'
+                  '<span  style="color: #fab946;" >Với kinh nghiệm vận hành và kiểm soát chất lượng sản xuất tại các doanh nghiệp. " "</span>'
                 )
                 .pauseFor(300)
-                .deleteChars(1)
+                .deleteChars(3)
                 .typeString(
-                  '<span  style="color: #fab946;">Tôi mong muốn trở thành nhân viên của công ty để có cơ hội được làm việc đóng góp cho công ty.</span>'
+                  '<span  style="color: #fab946;">Tôi mong muốn trở thành nhân viên của công ty để có cơ hội được làm việc và đóng góp cho công ty.</span>'
                 )
                 .pauseFor(500)
                 .start();
@@ -70,6 +70,14 @@ export default function Profile({}: Props) {
                 {profile.address}
               </span>
             </h2>
+          </div>
+          <div className="mt-2 flex items-center justify-center">
+            <button
+              type="button"
+              className="text-white bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-yellow-300 dark:focus:ring-yellow-800 font-semibold rounded-3xl px-5 py-2 text-center me-2 mb-2 hover:opacity-80 hover:transition-all"
+            >
+              Download CV
+            </button>
           </div>
         </div>
       </div>
