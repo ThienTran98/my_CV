@@ -8,7 +8,7 @@ type Props = {};
 
 export default function Profile({}: Props) {
   return (
-    <div className="py-5 px-20  ">
+    <div className="py-5 px-20">
       <div className="border-t border border-gray-600"></div>
       <div className="py-10 w-[60%] flex  justify-center mx-auto min-h-[396px]">
         <div className="w-1/2 shadow-lg shadow-indigo-500/40 rounded">
@@ -30,7 +30,6 @@ export default function Profile({}: Props) {
                   '<span  style="color: #fab946;" >Với kinh nghiệm vận hành và kiểm soát chất lượng sản xuất tại các doanh nghiệp.</span>'
                 )
                 .pauseFor(300)
-                .deleteChars(0)
                 .typeString(
                   '<span  style="color: #fab946;">Tôi mong muốn trở thành nhân viên của công ty để có cơ hội được làm việc và đóng góp cho công ty.</span>'
                 )
@@ -42,11 +41,6 @@ export default function Profile({}: Props) {
               delay: 150,
             }}
           />
-          {/* <p className="text-yellow-400">
-            Với kinh nghiệm vận hành và kiểm soát chất lượng sản xuất tại các
-            doanh nghiệp. Tôi mong muốn trở thành nhân viên của công ty để có cơ
-            hội được làm việc và đóng góp cho công ty.
-          </p> */}
           <div className="mt-3">
             <h2 className="">
               Họ và tên :
