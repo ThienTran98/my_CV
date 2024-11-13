@@ -7,7 +7,7 @@ type Props = {};
 export default function Header({}: Props) {
   const [isActive, setIsActive] = useState<number>(1);
   const handleRenderNav = () => {
-    return Nav_Data.map((item, index: number) => {
+    return Nav_Data.map((item, index) => {
       return (
         <Fragment key={item.id}>
           <h2
