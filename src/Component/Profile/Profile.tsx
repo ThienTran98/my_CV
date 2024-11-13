@@ -2,7 +2,7 @@
 
 import { profile } from "@/FetchData/NavData/Nav";
 import React from "react";
-import Typewriter from "typewriter-effect";
+// import Typewriter from "typewriter-effect";
 
 type Props = {};
 
@@ -23,7 +23,7 @@ export default function Profile({}: Props) {
         </div>
         <div className="w-1/2 text-white pl-4">
           <h1 className="text-xl font-bold mb-3">Giới thiệu về bản thân</h1>
-          <Typewriter
+          {/* <Typewriter
             onInit={(typewriter) => {
               typewriter
                 .pauseFor(300)
@@ -38,7 +38,12 @@ export default function Profile({}: Props) {
                 .pauseFor(500)
                 .start();
             }}
-          />
+          /> */}
+          <p className="text-yellow-400">
+            Với kinh nghiệm vận hành và kiểm soát chất lượng sản xuất tại các
+            doanh nghiệp. Tôi mong muốn trở thành nhân viên của công ty để có cơ
+            hội được làm việc và đóng góp cho công ty.
+          </p>
           <div className="mt-3">
             <h2 className="">
               Họ và tên :
