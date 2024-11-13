@@ -37,6 +37,10 @@ export default function Profile({}: Props) {
                 .pauseFor(300)
                 .start();
             }}
+            options={{
+              loop: true,
+              delay: 150,
+            }}
           />
           {/* <p className="text-yellow-400">
             Với kinh nghiệm vận hành và kiểm soát chất lượng sản xuất tại các
