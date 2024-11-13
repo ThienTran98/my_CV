@@ -1,7 +1,6 @@
 import Education from "@/Component/Education/Education";
 import Header from "@/Component/Header/Header";
 import Profile from "@/Component/Profile/Profile";
-import Image from "next/image";
 
 export default function Home() {
   return (

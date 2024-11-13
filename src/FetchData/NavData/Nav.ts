@@ -11,6 +11,12 @@ interface isProfile {
   phone: string;
 }
 
+interface isEducation {
+  shool: string;
+  major: string;
+  degree_classification: string;
+  shool_year: string;
+}
 export const Nav_Data: Array<IsNavData> = [
   {
     id: 1,
@@ -53,4 +59,11 @@ export const profile: isProfile = {
     "76/26 Lê Văn Chí , phường Linh Trung , quận Thủ Đức , thành phố HCM",
   email: "tranhuuthien98@gmail.com",
   phone: "0399376611",
+};
+
+export const education: isEducation = {
+  shool: "Cao Đẳng Kỹ Thuật Cao Thắng",
+  major: "Điện - Điện Tử",
+  degree_classification: "Khá",
+  shool_year: "09/2016 - 07/2019",
 };
