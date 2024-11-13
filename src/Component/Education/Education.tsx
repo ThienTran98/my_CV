@@ -2,9 +2,7 @@
 import { education } from "@/FetchData/NavData/Nav";
 import React from "react";
 
-type Props = {};
-
-export default function Education({}: Props) {
+export default function Education() {
   return (
     <div className="py-5 px-20 ">
       <h2 className="text-white text-xl font-bold flex items-center justify-center">
@@ -14,7 +12,6 @@ export default function Education({}: Props) {
         <h3 className="flex items-center">
           <p className="text-white min-w-[120px]">Trường :</p>{" "}
           <span className="text-gray-400 font-semibold mx-2">
-            {" "}
             {education.shool}
           </span>
         </h3>

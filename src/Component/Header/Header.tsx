@@ -2,9 +2,7 @@
 import { Nav_Data } from "@/FetchData/NavData/Nav";
 import React, { Fragment, useState } from "react";
 
-type Props = {};
-
-export default function Header({}: Props) {
+export default function Header() {
   const [isActive, setIsActive] = useState<number>(1);
   const handleRenderNav = () => {
     return Nav_Data.map((item, index) => {
