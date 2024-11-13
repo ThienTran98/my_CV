@@ -1,3 +1,4 @@
+"use client";
 import Education from "@/Component/Education/Education";
 import Header from "@/Component/Header/Header";
 import Profile from "@/Component/Profile/Profile";

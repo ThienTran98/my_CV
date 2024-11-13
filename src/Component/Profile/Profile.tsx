@@ -45,31 +45,31 @@ export default function Profile({}: Props) {
             <h2>
               Họ và tên :
               <span className="mx-2 text-gray-400 font-normal">
-                {profile.name}
+                {profile?.name}
               </span>
             </h2>
             <h2>
               Ngày tháng năm sinh :
               <span className="mx-2 text-gray-400 font-normal">
-                {profile.dob}
+                {profile?.dob}
               </span>
             </h2>
             <h2>
               SĐT :
               <span className="mx-2 text-gray-400 font-normal">
-                {profile.phone}
+                {profile?.phone}
               </span>
             </h2>
             <h2>
               Email :
               <span className="mx-2 text-gray-400 font-normal">
-                {profile.email}
+                {profile?.email}
               </span>
             </h2>
             <h2>
               Địa chỉ :
               <span className="mx-2 text-gray-400 font-normal">
-                {profile.address}
+                {profile?.address}
               </span>
             </h2>
           </div>

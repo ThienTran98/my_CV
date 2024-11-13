@@ -28,7 +28,6 @@ export default function Education({}: Props) {
         <h3 className="flex items-center">
           <p className="text-white min-w-[120px]">Năm học :</p>
           <span className="text-gray-400 font-semibold mx-2">
-            {" "}
             {education.shool_year}
           </span>
         </h3>
