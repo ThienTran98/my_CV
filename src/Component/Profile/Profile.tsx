@@ -3,9 +3,7 @@ import { profile } from "@/FetchData/NavData/Nav";
 import React from "react";
 import Typewriter from "typewriter-effect";
 
-type Props = {};
-
-export default function Profile({}: Props) {
+export default function Profile() {
   return (
     <div className="py-5 px-20">
       <div className="border-t border border-gray-600"></div>

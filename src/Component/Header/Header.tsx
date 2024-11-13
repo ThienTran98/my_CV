@@ -5,7 +5,7 @@ import React, { Fragment, useState } from "react";
 export default function Header() {
   const [isActive, setIsActive] = useState<number>(1);
   const handleRenderNav = () => {
-    return Nav_Data.map((item, index) => {
+    return Nav_Data.map((item) => {
       return (
         <Fragment key={item.id}>
           <h2

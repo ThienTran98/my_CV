@@ -10,7 +10,7 @@ export default function Education() {
       </h2>
       <div className="w-[40%] mx-auto shadow-lg shadow-yellow-500/50 px-2 py-3 rounded">
         <h3 className="flex items-center">
-          <p className="text-white min-w-[120px]">Trường :</p>{" "}
+          <p className="text-white min-w-[120px]">Trường :</p>
           <span className="text-gray-400 font-semibold mx-2">
             {education.shool}
           </span>
