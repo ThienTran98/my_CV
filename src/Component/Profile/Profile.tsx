@@ -27,10 +27,10 @@ export default function Profile({}: Props) {
               typewriter
                 .pauseFor(300)
                 .typeString(
-                  '<span  style="color: #fab946;" >Với kinh nghiệm vận hành và kiểm soát chất lượng sản xuất tại các doanh nghiệp. " "</span>'
+                  '<span  style="color: #fab946;" >Với kinh nghiệm vận hành và kiểm soát chất lượng sản xuất tại các doanh nghiệp.</span>'
                 )
                 .pauseFor(300)
-                .deleteChars(3)
+                .deleteChars(0)
                 .typeString(
                   '<span  style="color: #fab946;">Tôi mong muốn trở thành nhân viên của công ty để có cơ hội được làm việc và đóng góp cho công ty.</span>'
                 )
