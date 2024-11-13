@@ -19,7 +19,6 @@ export default function Profile({}: Props) {
           <h2>Image</h2>
           <h2>Image</h2>
           <h2>Image</h2>
-          <img src="" alt="" />
         </div>
         <div className="w-1/2 text-white pl-4">
           <h1 className="text-xl font-bold mb-3">Giới thiệu về bản thân</h1>
